@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        
+        header {
+            text-align: center;
+            font-size: 1.2em;
+            background-color: black;
+            color: white;
+            box-shadow: 0px 0px 10px 5px rgba(85, 84, 84, 0.582);
+        }
+
+        header > h1 {
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.425);
+        }
+
+        nav {
+            background-color: rgb(85, 84, 84);
+            width: 800px;
+            margin: auto;
+            margin-top: 50px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(85, 84, 84); 
+            box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.616); 
+            border-radius: 10px;      
+        }
+
+        nav > a {
+            padding-left: 50px;
+            padding-right: 50px;
+            text-decoration: none;
+            color: white;
+        }
+
+        article {
+            margin-left: 90px;
+        }
+
+        article > h2 {
+            margin-left: 200px;
+            font-size: 1.6em;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            background-color: black;
+            height: 100px;
+        }
+
+        footer > h3 {
+            border-style: solid;
+            border-width: 50px;
+            border-color: rgb(0, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunt">
+
+        </section>
+        <section id="not">
+            <article>
+                <h2>blabla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quas cum, obcaecati vero suscipit laboriosam possimus distinctio. Rerum perspiciatis, magnam cupiditate quod laboriosam ipsam! Vitae itaque odio eos debitis placeat!</p>
+                <aside>
+                    <p>cleiton</p>
+                </aside>
+            </article>    
+        </section>
+    </main>
+    <footer>
+        <h3>tchau</h3>
+    </footer>
+</body>
+</html>

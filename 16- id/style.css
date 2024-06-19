@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#pp {
+    background-color: rgb(0, 0, 0); 
+    color: white;
+    text-align: center;
+ }
+
+h1 {
+   background-color: rgb(0, 0, 0); 
+   color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.gay {
+    background-image: linear-gradient(to right, black 1%, gray 15%, white);
+    color: white;
+    text-align: left;
+}
+
+div {
+    text-align: center;
+    display: inline-block;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: white;
+}
